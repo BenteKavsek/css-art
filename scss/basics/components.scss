@@ -1,0 +1,55 @@
+@use './colors.scss';
+
+%ear{
+    background-color: colors.$cat-skin;
+    position: absolute;
+    height: 45%;
+    width: 18%;
+    top: 25%;
+    border-radius: 50%;
+}
+
+%ear-inside{
+    position: absolute;
+    background: colors.$cat-white;
+    height: 50%;
+    width: 50%;
+    top: 20%;
+    left: 25%;
+    border-radius: 50%;
+}
+
+%eye{
+    position: absolute;
+    background: white;
+    height: 30%;
+    width: 30%;
+    top: 20%;
+    border-radius: 50%;
+}
+
+%pupil{
+    position: absolute;
+    background: black;
+    height: 80%;
+    width: 80%;
+    left: 0;
+    bottom: 0;
+    border-radius: 50%;
+}
+
+%left-wisker{
+    position: absolute;
+    border: 1px solid black;
+    height: 0%;
+    width: 40%;
+    left: -10%;
+}
+
+%right-wisker{
+    position: absolute;
+    border: 1px solid black;
+    height: 0%;
+    width: 40%;
+    left: 68%;
+}

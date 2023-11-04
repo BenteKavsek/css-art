@@ -1,0 +1,97 @@
+@use 'basics/colors.scss';
+@use 'basics/components.scss';
+
+
+.cat__head {
+    position: absolute;
+    background-color: colors.$cat-skin;
+    height: 50%;
+    width: 50%;
+    top: 40%;
+    left: 25%;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.ear-left {
+    @extend %ear;
+    left: 25%;
+    transform: rotate(-25deg);
+}
+
+.ear-right {
+    @extend %ear;
+    left: 55%;
+    transform: rotate(25deg);
+}
+
+.inside-ear-left {
+    @extend %ear-inside;
+}
+
+.inside-ear-right {
+    @extend %ear-inside;
+}
+
+.left-eye {
+    @extend %eye;
+    left: 18%;
+}
+
+.right-eye {
+    @extend %eye;
+    left: 54%;
+}
+
+.left-pupil {
+    @extend %pupil;
+}
+
+.right-pupil {
+    @extend %pupil;
+}
+
+.nose {
+    position: absolute;
+    background: colors.$cat-white;
+    width: 15%;
+    height: 10%;
+    border-radius: 50%;
+    left: 40%;
+    bottom: 30%;
+}
+
+.left-top-whisker {
+    @extend %left-wisker;
+    top: 50%;
+    transform: rotate(15deg);
+}
+
+.left-mid-whisker{
+    @extend %left-wisker;
+    top: 65%;
+}
+
+.left-bottom-whisker{
+    @extend %left-wisker;
+    top: 80%;
+    transform: rotate(-15deg);
+}
+
+
+.right-top-whisker {
+    @extend %right-wisker;
+    top: 50%;
+    transform: rotate(-15deg);
+}
+
+.right-mid-whisker {
+    @extend %right-wisker;
+    top: 65%;
+}
+
+.right-bottom-whisker{
+    @extend %right-wisker;
+    top: 80%;
+    transform: rotate(15deg);
+}

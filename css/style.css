@@ -1,0 +1,133 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: #9CA777;
+}
+
+.ear-left, .ear-right {
+  background-color: #F79540;
+  position: absolute;
+  height: 45%;
+  width: 18%;
+  top: 25%;
+  border-radius: 50%;
+}
+
+.inside-ear-left, .inside-ear-right {
+  position: absolute;
+  background: #F6F1E9;
+  height: 50%;
+  width: 50%;
+  top: 20%;
+  left: 25%;
+  border-radius: 50%;
+}
+
+.left-eye, .right-eye {
+  position: absolute;
+  background: white;
+  height: 30%;
+  width: 30%;
+  top: 20%;
+  border-radius: 50%;
+}
+
+.left-pupil, .right-pupil {
+  position: absolute;
+  background: black;
+  height: 80%;
+  width: 80%;
+  left: 0;
+  bottom: 0;
+  border-radius: 50%;
+}
+
+.left-top-whisker, .left-mid-whisker, .left-bottom-whisker {
+  position: absolute;
+  border: 1px solid black;
+  height: 0%;
+  width: 40%;
+  left: -10%;
+}
+
+.right-top-whisker, .right-mid-whisker, .right-bottom-whisker {
+  position: absolute;
+  border: 1px solid black;
+  height: 0%;
+  width: 40%;
+  left: 68%;
+}
+
+.cat__head {
+  position: absolute;
+  background-color: #F79540;
+  height: 50%;
+  width: 50%;
+  top: 40%;
+  left: 25%;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.ear-left {
+  left: 25%;
+  transform: rotate(-25deg);
+}
+
+.ear-right {
+  left: 55%;
+  transform: rotate(25deg);
+}
+
+.left-eye {
+  left: 18%;
+}
+
+.right-eye {
+  left: 54%;
+}
+
+.nose {
+  position: absolute;
+  background: #F6F1E9;
+  width: 15%;
+  height: 10%;
+  border-radius: 50%;
+  left: 40%;
+  bottom: 30%;
+}
+
+.left-top-whisker {
+  top: 50%;
+  transform: rotate(15deg);
+}
+
+.left-mid-whisker {
+  top: 65%;
+}
+
+.left-bottom-whisker {
+  top: 80%;
+  transform: rotate(-15deg);
+}
+
+.right-top-whisker {
+  top: 50%;
+  transform: rotate(-15deg);
+}
+
+.right-mid-whisker {
+  top: 65%;
+}
+
+.right-bottom-whisker {
+  top: 80%;
+  transform: rotate(15deg);
+}
+
+/*# sourceMappingURL=style.css.map */
